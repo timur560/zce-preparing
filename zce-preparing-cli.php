@@ -29,6 +29,8 @@ echo "\n";
 switch ($choice) {
 	case 1:
 		echo "You chose PHP Basics: 1. Syntax\n\n";
+
+		require_once('./php_basics/syntax.php');
 		break;
 	
 	default:
